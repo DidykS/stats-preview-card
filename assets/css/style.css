@@ -1,0 +1,39 @@
+/* Colors 
+    very dark blue(main background): #090b1a
+    dark desaturated blue (card background): #1b1938
+    soft violet (accent): #aa5cdb
+
+  Neutral:
+    white (main heading, stats): #fff
+    slightly transparent white (main paragraph opacity):  0.75
+    slightly transparent white (stat headings opacity): 0.6
+*/
+
+/* font-family: 'Inter', sans-serif;
+font-family: 'Lexend Deca', sans-serif; */
+
+/* MAIN STYLES */
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  overflow-x: hidden;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+
+  font-family: 'Barlow', sans-serif;
+  font-size: 15px;
+  background-color: #090b1a;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
